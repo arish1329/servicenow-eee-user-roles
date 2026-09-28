@@ -1,0 +1,62 @@
+# ServiceNow ACL Configuration – EEE Institution Details
+
+## ACL Creation
+
+### Step 1: Create a New ACL
+
+1. Navigate to **System Security → Access Control (ACL)**.
+2. Click **New** to create a new ACL.
+3. Enter the following details:
+
+| Field          | Value                   |
+| -------------- | ----------------------- |
+| Type           | Record                  |
+| Operation      | Create                  |
+| Name           | `u_institution_details` |
+| Active         | `true`                  |
+| Required Role  | `bb2`                   |
+| Data Condition | No condition            |
+
+4. In the **Requires role** related list, add the custom role:
+
+```text
+bb2
+```
+
+5. Click **Submit / Save** to create the ACL.
+
+---
+
+## Verification
+
+The ACL configuration should provide the following access:
+
+* A user having **`bb1` and `bb2` roles** can view **EEE branch records**.
+* The **New** button is available to the authorized user.
+* Users without the required `bb2` role should not receive the create permission provided by this ACL.
+
+## Proof
+
+Screenshots demonstrating the ACL configuration and verification are included below.
+
+### ACL Configuration
+
+> Add your ServiceNow ACL screenshot here.
+
+### Access Verification
+
+> Add your screenshot showing the user with `bb1` and `bb2` roles, EEE branch records, and the **New** button here.
+
+---
+
+## Technologies Used
+
+* ServiceNow
+* Access Control Lists (ACL)
+* Custom Roles
+* Record-Level Security
+* User/Role-Based Access Control
+
+## Project Objective
+
+The objective of this configuration is to implement role-based access control in ServiceNow so that only authorized users can create records in the `u_institution_details` table.
