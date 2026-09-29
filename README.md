@@ -73,7 +73,7 @@ relationships.
 ## Demo
 
 ServiceNow Instance:
-`YOUR_DEMO_LINK_HERE`
+`https://dev211458.service-now.com`
 
 ## Repository
 
@@ -109,5 +109,29 @@ table for different record operations.
 ### Write ACL Verification
 ![Write ACL Verification](screenshots/08-acl-write-verification.png)<img width="1871" height="855" alt="write ac" src="https://github.com/user-attachments/assets/1d9a5c06-7032-45e8-a4fd-34428b91aac3" />
 <img width="1812" height="871" alt="create acl" src="https://github.com/user-attachments/assets/82d4b436-6429-4608-8efa-36bacb613abb" />
+## Access Control List (ACL)
+
+ACL rules were configured for the `u_institution_details` table
+to control record-level access.
+
+The following operations were configured:
+
+- Read
+- Create
+- Write
+- Delete
+
+The ACL configuration includes role-based access and branch-based
+conditions where required.
+
+### ACL Proof
+
+![Read ACL](screenshots/06-acl-read-role-condition.png)
+
+![Create ACL](screenshots/07-acl-create-verification.png)
+
+![Write ACL](screenshots/08-acl-write-verification.png)
+
+![Delete ACL](screenshots/09-acl-delete.png)<img width="1772" height="856" alt="delete acl" src="https://github.com/user-attachments/assets/e838027e-829e-4d30-8bc9-08a2217ab121" />
 
 
