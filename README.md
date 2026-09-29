@@ -98,4 +98,16 @@ table to control read access.
 ### ACL Screenshot
 
 ![Institution Details ACL](screenshots/06-acl-read-role-condition.png)<img width="1882" height="765" alt="creation of acl" src="https://github.com/user-attachments/assets/d0d30114-a99b-428e-bbd1-e5ad3080000b" />
+## ACL Security Verification
+
+Security rules were verified for the `u_institution_details`
+table for different record operations.
+
+### Create ACL Verification
+![Create ACL Verification](screenshots/07-acl-create-verification.png)
+
+### Write ACL Verification
+![Write ACL Verification](screenshots/08-acl-write-verification.png)<img width="1871" height="855" alt="write ac" src="https://github.com/user-attachments/assets/1d9a5c06-7032-45e8-a4fd-34428b91aac3" />
+<img width="1812" height="871" alt="create acl" src="https://github.com/user-attachments/assets/82d4b436-6429-4608-8efa-36bacb613abb" />
+
 
