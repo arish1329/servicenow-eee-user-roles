@@ -80,3 +80,4 @@ ServiceNow Instance:
 This repository contains the documentation and screenshots
 of the ServiceNow table configuration.<img width="1861" height="682" alt="table updtae" src="https://github.com/user-attachments/assets/9abeea0f-c241-4b2c-89d7-0d22b5c3c34e" />
 <img width="1867" height="956" alt="table creaction" src="https://github.com/user-attachments/assets/cb8c5fec-b06b-4d94-9504-580957645931" />
+<img width="1917" height="375" alt="TABLE UP" src="https://github.com/user-attachments/assets/fabe7095-ea26-4734-b367-b7632a8a46a7" />
